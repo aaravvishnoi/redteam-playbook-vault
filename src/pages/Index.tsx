@@ -11,8 +11,7 @@ const Index = () => {
         <section className="flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center py-20 text-center">
           <div className="mb-8 inline-block">
             <h1 className="mb-4 text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl">
-              <span className="text-foreground">AARAV</span>
-              <span className="text-accent">SEC</span>
+              <span className="text-foreground">Aarav Vishnoi</span>
             </h1>
             <div className="h-1 bg-accent"></div>
           </div>
