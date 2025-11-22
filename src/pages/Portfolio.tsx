@@ -11,6 +11,13 @@ const Portfolio = () => {
       link: "/portfolio/sql-injection-login-bypass",
     },
     {
+      title: "SQL Injection: Oracle Database Version Disclosure",
+      description:
+        "UNION-based SQL injection in category filter exposing Oracle database version and patch information through v$version enumeration.",
+      tags: ["SQL Injection", "UNION SELECT", "Oracle", "Info Disclosure"],
+      link: "/portfolio/sql-injection-oracle-version",
+    },
+    {
       title: "API Pentest Report",
       description:
         "Deep dive into REST and GraphQL API security, identifying broken authorization, mass assignment, and rate limiting issues.",
