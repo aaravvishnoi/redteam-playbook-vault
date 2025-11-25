@@ -33,7 +33,7 @@ const Index = () => {
             </Button>
             <Button asChild size="lg" variant="outline">
               <a
-                href="https://github.com/aaravsec"
+                href="https://github.com/wildshock"
                 target="_blank"
                 rel="noopener noreferrer"
               >
