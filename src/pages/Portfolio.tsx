@@ -18,6 +18,13 @@ const Portfolio = () => {
       link: "/portfolio/sql-injection-oracle-version",
     },
     {
+      title: "SQL Injection: UNION-Based Enumeration on MS SQL Server",
+      description:
+        "Complete database enumeration via UNION-based SQL injection, extracting server version, schema structure, and sensitive user credentials from Microsoft SQL Server.",
+      tags: ["SQL Injection", "UNION SELECT", "MS SQL Server", "Critical", "Data Enumeration"],
+      link: "/portfolio/sql-injection-union-enumeration",
+    },
+    {
       title: "API Pentest Report",
       description:
         "Deep dive into REST and GraphQL API security, identifying broken authorization, mass assignment, and rate limiting issues.",
