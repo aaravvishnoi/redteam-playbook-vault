@@ -1,7 +1,10 @@
+import { lazy, Suspense } from "react";
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight, Github } from "lucide-react";
+
+const EarthGlobe = lazy(() => import("@/components/EarthGlobe"));
 
 const Index = () => {
   return (
@@ -90,6 +93,13 @@ const Index = () => {
               <Link to="/contact">Get In Touch</Link>
             </Button>
           </div>
+        </section>
+
+        {/* Earth Globe */}
+        <section className="pb-20">
+          <Suspense fallback={<div className="h-[400px] w-full flex items-center justify-center text-muted-foreground">Loading...</div>}>
+            <EarthGlobe />
+          </Suspense>
         </section>
       </div>
     </Layout>
