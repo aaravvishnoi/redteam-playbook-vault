@@ -32,7 +32,7 @@ const Contact = () => {
               <div>
                 <h3 className="mb-1 font-semibold">GitHub</h3>
                 <a
-                  href="https://github.com/wildshock"
+                  href="https://github.com/aaravvishnoi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-accent"
