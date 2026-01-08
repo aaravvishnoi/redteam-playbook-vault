@@ -22,7 +22,7 @@ const Contact = () => {
                   href="mailto:contact@aaravsec.dev"
                   className="text-sm text-muted-foreground hover:text-accent"
                 >
-                  contact@aaravsec.dev
+                  aaravvishnoi764@gmail.com
                 </a>
               </div>
             </div>
@@ -32,7 +32,7 @@ const Contact = () => {
               <div>
                 <h3 className="mb-1 font-semibold">GitHub</h3>
                 <a
-                  href="https://github.com/wildshock"
+                  href="https://github.com/aaravvishnoi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-accent"
@@ -59,12 +59,6 @@ const Contact = () => {
 
             <div className="flex items-start gap-4 rounded-lg border border-operator-border bg-card p-6">
               <Key className="mt-1 h-6 w-6 flex-shrink-0 text-accent" />
-              <div>
-                <h3 className="mb-1 font-semibold">PGP Key</h3>
-                <p className="text-sm text-muted-foreground">
-                  For encrypted communications, my PGP public key is available upon request.
-                </p>
-              </div>
             </div>
           </div>
 

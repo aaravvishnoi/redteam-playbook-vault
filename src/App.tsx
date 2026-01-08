@@ -13,6 +13,7 @@ import NotFound from "./pages/NotFound";
 import SqlInjectionLoginBypass from "./pages/projects/SqlInjectionLoginBypass";
 import SqlInjectionOracleVersion from "./pages/projects/SqlInjectionOracleVersion";
 import SqlInjectionUnionEnumeration from "./pages/projects/SqlInjectionUnionEnumeration";
+import BlindSqlInjectionBoolean from "./pages/projects/BlindSqlInjectionBoolean";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/portfolio/sql-injection-login-bypass" element={<SqlInjectionLoginBypass />} />
           <Route path="/portfolio/sql-injection-oracle-version" element={<SqlInjectionOracleVersion />} />
           <Route path="/portfolio/sql-injection-union-enumeration" element={<SqlInjectionUnionEnumeration />} />
+          <Route path="/portfolio/blind-sql-injection-boolean" element={<BlindSqlInjectionBoolean />} />
           <Route path="/writeups" element={<Writeups />} />
           <Route path="/notes" element={<Notes />} />
           <Route path="/contact" element={<Contact />} />

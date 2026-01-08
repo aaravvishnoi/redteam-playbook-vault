@@ -161,7 +161,7 @@ const Notes = () => {
                   <li>Sudo misconfigurations and GTFOBins</li>
                   <li>SUID binaries with known exploits</li>
                   <li>Writable /etc/passwd or service files</li>
-                  <li>Kernel exploits for older versions</li>
+                  
                 </ul>
               </div>
             </AccordionContent>
