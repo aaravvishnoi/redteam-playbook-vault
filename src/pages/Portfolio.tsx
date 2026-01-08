@@ -25,32 +25,11 @@ const Portfolio = () => {
       link: "/portfolio/sql-injection-union-enumeration",
     },
     {
-      title: "API Pentest Report",
+      title: "Blind SQL Injection: Boolean-Based Credential Extraction",
       description:
-        "Deep dive into REST and GraphQL API security, identifying broken authorization, mass assignment, and rate limiting issues.",
-      tags: ["API Security", "BOLA", "Mass Assignment", "GraphQL"],
-      link: "/portfolio/api-pentest",
-    },
-    {
-      title: "Linux Privilege Escalation Lab",
-      description:
-        "Step-by-step documentation of privilege escalation techniques in Linux environments, from weak permissions to kernel exploits.",
-      tags: ["Linux", "Privesc", "SUID", "Kernel Exploits"],
-      link: "/portfolio/linux-privesc",
-    },
-    {
-      title: "Windows Privilege Escalation Lab",
-      description:
-        "Comprehensive guide to Windows privilege escalation covering service misconfigurations, DLL hijacking, and token manipulation.",
-      tags: ["Windows", "Privesc", "DLL Hijacking", "Tokens"],
-      link: "/portfolio/windows-privesc",
-    },
-    {
-      title: "Custom Offensive Tool",
-      description:
-        "Python-based automation tool for reconnaissance and vulnerability scanning with customizable modules for different attack surfaces.",
-      tags: ["Python", "Automation", "Recon", "Tool Development"],
-      link: "/portfolio/custom-tool",
+        "Boolean-based blind SQL injection to extract administrator password character-by-character using conditional responses and Burp Intruder automation.",
+      tags: ["Blind SQL Injection", "Boolean-Based", "Credential Extraction", "Critical"],
+      link: "/portfolio/blind-sql-injection-boolean",
     },
   ];
 
